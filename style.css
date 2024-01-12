@@ -1,0 +1,225 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(assets/Eastern_forest.png);
+    background-size: cover;
+    background-position: fixed;
+    background-color: #2f3640;
+    background-attachment: fixed;
+
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.background_overlay {
+    position: fixed;
+    width: device-width;
+    height: device-width;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+.parent {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+
+    justify-content: center;
+
+    width: 60%;
+    height: max-content;
+
+    border-radius: 22px;
+    border: 1px solid #FFF;
+    backdrop-filter: blur(7px);
+    row-gap: 50px;
+
+    position: relative;
+    top: 15px;
+}
+
+.text_label {
+    font-size: 15px;
+}
+
+input,
+select {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: white;
+    color: white;
+    font-size: 20px;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 15px;
+    color: rgb(29, 29, 29);
+    padding: 5px;
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 15px;
+    color: rgb(29, 29, 29);
+    padding: 5px;
+    transition-duration: 0.4s;
+}
+
+option {
+    color: rgb(29, 29, 29);
+}
+
+input[type=submit]:hover {
+    border-radius: 10px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.input_row {
+    width: 500px;
+}
+
+.input_row_submit {
+    margin-bottom: 20px;
+}
+
+.input_row_edit {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.row_edit {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 15px;
+    color: rgb(29, 29, 29);
+    padding: 5px;
+    transition-duration: 0.4s;
+    border-style: none;
+
+    font-size: 20px;
+
+    position: relative;
+    bottom: 20px;
+    top: 5px;
+
+
+}
+
+.r_edit {
+    width: 50%;
+
+    position: absolute;
+    bottom: 20px;
+
+}
+
+.admin_link {
+    position: relative;
+    top: 12px;
+    left: 8px;
+    font-size: 16px;
+    color: rgb(26, 40, 240);
+}
+
+.php_row {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    top: -30px;
+}
+
+.header_table {
+    position: relative;
+    top: 25px;
+
+}
+
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-radius: 18px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    height: auto;
+    border-style: hidden;
+}
+
+th,
+td {
+
+    padding: 8px;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.table_container {
+    width: auto;
+}
+
+.table_border {
+    border-radius: 18px;
+    overflow: auto;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 24px;
+}
+
+.view_table {
+    border-style: hidden;
+}
+
+.record {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.back_admin {
+    position: relative;
+    top: 10px;
+    left: -3px;
+}
+
+.edit_admin {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.edit_1 {
+    border: hidden;
+}
